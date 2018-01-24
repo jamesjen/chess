@@ -1,0 +1,41 @@
+.board {
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: red;
+}
+
+
+.square {
+	display: flex;
+	width: 12.5%;
+	height: 12.5%;
+	border: 1px solid gray;
+	box-sizing: border-box;
+	align-items: center;
+	justify-content: center;
+}
+
+.square-black {
+	background-color: rgba(44,190,117,1);
+}
+
+.square-white {
+	background-color: white;
+}
+
+.piece {
+	font-size: 50;
+	margin: 0;
+	padding: 0;
+
+}
+
+.piece-black {
+
+}
+
+.piece-white {
+
+}
